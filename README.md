@@ -79,7 +79,7 @@ Transform your hobby, passion, skills, work, goals, products, or services into a
 # 📝 Lonthon Blog Installation Guide
 
 ### **1.0 Download and Unzip**
-We have two options: [**Free Download**](https://ebangali.com/out/soft/copy/details/1/PHP/Blog/) and [**Paid Download**](https://ebangali.com/out/soft/soft-copy-purchase-history.php) from Purchase History. There is no difference between them. We just provide technical support for paid downloads.
+We have two options: [**Free Download**](https://ebangali.com/out/soft/copy/details/1/php/blog/) and [**Paid Download**](https://ebangali.com/out/soft/soft-copy-purchase-history.php) from Purchase History. There is no difference between them. We just provide technical support for paid downloads.
 
 - Download ZIP
 - Extract All
