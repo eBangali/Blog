@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Base directory (optional, if your .htaccess is inside /out/blog/)
+RewriteBase /
+
+# Match exact /out/blog/contents/
+RewriteRule ^out/blog/contents/$ out/blog/contents.php [L]
+
+# Liklist
+RewriteRule ^out/blog/contents/likelist/$ out/blog/contents.php?view=likelist [L,QSA]
+
+# Category
+RewriteRule ^out/blog/contents/category/([a-z0-9-]+)/$ out/blog/contents.php?view=category&articleno=$1 [L,QSA]
+
+# Subcategory
+RewriteRule ^out/blog/contents/subcategory/([a-z0-9-]+)/?$ out/blog/contents.php?view=subcategory&articleno=$1 [L,QSA]
+
+# Writer
+RewriteRule ^out/blog/contents/writer/([a-z0-9-]+)/([a-z0-9-]+)/?$ out/blog/contents.php?view=writer&articleno=$1&articlewriter=$2 [L,QSA]
+
+# Solve (2 params)
+RewriteRule ^out/blog/contents/solve/([a-z0-9-]+)/([a-z0-9-]+)/?$ out/blog/contents.php?view=solve&articleno=$1&title=$2 [L,QSA]
+
+# Solve (3 params)
+RewriteRule ^out/blog/contents/solve/([a-z0-9-]+)/([a-z0-9-]+)/([a-z0-9-]+)/?$ out/blog/contents.php?view=solve&articleno=$1&title=$2&omr=$3 [L,QSA]
+
+</IfModule>

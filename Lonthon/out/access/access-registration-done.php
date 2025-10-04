@@ -1,0 +1,1 @@
+<?php echo "<div class='well'><b>eMail verification done</b></div>"; ?>
